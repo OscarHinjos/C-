@@ -24,7 +24,10 @@ int main(int argc, char const *argv[]){
                 cout << "The split of : " << number1 << " and " << number2 << " is: " << split(number1, number2) << endl;
             }
         }else if(operation == 5){
-            cout << "See you soon" << endl;
+            cout << "The power of : " << number1 << " and " << number2 << " is: " << powers(number1, number2) << endl;
+            
+        }else if(operation == 6){
+            cout << "You exit program: " << endl;
             exit = true;
         }
 }
